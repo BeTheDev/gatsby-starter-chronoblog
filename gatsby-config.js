@@ -79,15 +79,6 @@ module.exports = {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: 'UA-XXXXXXXXX-X'
       }
-    },
-
-    {
-      resolve: `gatsby-source-velog`,
-      options: {
-        username: `cyongchoi`
-      }
-    },
-    // If you want to transform markdown content
-    'gatsby-transformer-remark'
+    }
   ]
 };
