@@ -1,34 +1,34 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Starter',
-    siteDescription: 'Starter for Gatsby Theme Chronoblog',
+    siteTitle: 'CCY Dev Blog',
+    siteDescription: 'My new Blog using Gatsby Chronoblog Theme',
     siteImage: '/banner.png', // main image of the site for metadata
-    siteUrl: 'https://chronoblog.now.sh/',
+    siteUrl: 'https://ccy.netlify.app/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    author: 'Francisco Choi', // for example - 'Ivan Ganev'
+    authorDescription: 'Learning Coding & Being a Developer', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
     social: [
       {
-        icon: `at`,
-        url: `mailto:mymail@mail.com`
-      },
-      {
-        icon: `twitter`,
-        url: `https://twitter.com/ganevru`
+        icon: `envelope`,
+        url: `mailto:cyongchoi88@gmail.com`
       },
       {
         icon: `github`,
         url: `https://github.com/daonez`
       },
       {
-        icon: `node-js`,
-        url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`
+        icon: `linkedin`,
+        url: `https://www.linkedin.com/in/franciscochoi/`
       }
+      // {
+      //   icon: `node-js`,
+      //   url: `https://www.npmjs.com/package/gatsby-theme-chronoblog`
+      // }
     ]
   },
   plugins: [
